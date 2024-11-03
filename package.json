@@ -16,7 +16,7 @@
     "Electron",
     "Node.js"
   ],
-  "author": "Your Name",
+  "author": "Ruben Bosma",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.7",
@@ -36,7 +36,7 @@
   },
   "build": {
     "appId": "com.example.steamgameslist",
-    "productName": "Steam Games List",
+    "productName": "Steam Games Manager",
     "directories": {
       "output": "dist"
     },
@@ -46,8 +46,7 @@
       "views/**/*",
       "public/**/*",
       "node_modules/**/*",
-      "package.json",
-      ".env"
+      "package.json"
     ],
     "extraMetadata": {
       "main": "main.js"
@@ -55,6 +54,12 @@
     "win": {
       "target": "nsis",
       "icon": "public/icons/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true
     }
   }
 }
