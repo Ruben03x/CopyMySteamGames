@@ -2,3 +2,6 @@
 node_modules/
 dist/
 index.js
+main.js
+views/
+public/css/style.css
