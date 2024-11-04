@@ -1,4 +1,4 @@
-# Steam Games Manager
+# Steam Copy and Paste games as a list
 
 An Electron app for viewing your Steam games with detailed insights into achievements and playtime. Easily track progress, filter games, and manage your library locally without needing a web browser. Ideal for gamers looking to keep track of their gaming stats in an organized, easy-to-use interface.
 
